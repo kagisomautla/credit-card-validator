@@ -9,7 +9,6 @@ import 'package:credit_card_validator/controls/drawer.dart';
 import 'package:credit_card_validator/controls/input.dart';
 import 'package:credit_card_validator/controls/snack_bar.dart';
 import 'package:credit_card_validator/controls/text.dart';
-import 'package:credit_card_validator/local%20storage/delete.dart';
 import 'package:credit_card_validator/local%20storage/fetch.dart';
 import 'package:credit_card_validator/local%20storage/send.dart';
 import 'package:credit_card_validator/providers/countries.dart';
