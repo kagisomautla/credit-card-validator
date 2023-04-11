@@ -10,12 +10,11 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:provider/provider.dart';
 
 Future main() async {
-  await dotenv.load(fileName: "assets/.env");
-  runApp(const WeatherApplication());
+  runApp(const RankInteractiveCreditCardApp());
 }
 
-class WeatherApplication extends StatelessWidget {
-  const WeatherApplication({super.key});
+class RankInteractiveCreditCardApp extends StatelessWidget {
+  const RankInteractiveCreditCardApp({super.key});
 
   @override
   Widget build(BuildContext context) {
